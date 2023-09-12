@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/Postdb
+    username: root
+    password: Qqaz13788!
+
+mybatis:
+mapper-locations: mappers/**/*.xml
